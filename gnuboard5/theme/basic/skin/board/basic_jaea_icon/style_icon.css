@@ -1,0 +1,72 @@
+/* 목록 최 상단 번호, 글제목, 힛트 배경 색상 */
+#bo_list .tbl_head01 thead th {
+	border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background: #ffffff;
+	}
+
+/* 목록 글쓰기 버튼 */
+#bo_list a.btn_b02 {
+    padding: 8px 8px;
+}
+
+/* 목록 관리자 버튼 */
+#bo_list a.btn_admin {
+    padding: 7px;
+}
+
+/* 글 보기 화면에서 본문 상단 운영자 버튼 배경 색상 */
+#bo_v a.btn_b01 {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+	padding: 7px;
+}
+
+/* 글 보기 화면에서 본문 상단 운영자 버튼 배경 색상 */
+#bo_v a.btn_b02 {
+	padding: 7px;
+}
+
+/* 글 보기 화면에서 본문 상단 운영자 버튼 배경 색상 */
+#bo_v a.btn_admin {
+	padding: 7px;
+}
+
+
+
+
+/* 댓글의 기본적인 배경색상 */
+#bo_vc {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+}
+
+
+/*댓글쓰기에서 좌측 항목 가로 폭 및 색상 */
+.tbl_frm01 th {
+    width: 25px;
+	text-align:center;
+    border: 1px solid #ddddddd;
+    background: #ffffff !important;
+}
+
+
+/* 댓글 입력창 배경 색상 */
+#bo_vc .tbl_frm01 textarea {
+	background:#ffffff !important;
+}
+
+
+/*글쓰기에서 좌측 항목 가로 폭 및 색상 */
+#bo_w .tbl_frm01 th {
+    width: 25px;
+	text-align:center;
+    border: 1px solid #ddddddd;
+    background: #ffffff;
+}
+
+
+/*노코멘트 색상 */
+#bo_vc_empty {
+	color:#dddddd !important;
+}
